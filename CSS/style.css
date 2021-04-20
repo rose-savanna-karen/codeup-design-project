@@ -10,4 +10,47 @@ body {
 }
 .banner {
     position: absolute;
+    z-index: -1;
+}
+h1,h2 {
+    font-family: "Anton", san serif;
+}
+
+h1 {
+    font-size: 64px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+.circle {
+    width: 100%;
+    height: 100%;
+}
+
+li {
+    color: white;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 3px white;
+    width: 105px;
+    height: 105px;
+    list-style: none;
+    margin-top: .5em;
+    padding-top: 2.5em;
+}
+.red {
+    align-self: center;
+    background-color: #e6563b;
+}
+.orange {
+    background-color: #eb9d3a;
+}
+.green {
+    background-color: #7cb06c;
+}
+.blue {
+    background-color: #00aba9;
 }
