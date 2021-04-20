@@ -4,3 +4,10 @@ body {
     font-family: "Anton", san serif;
     background-color: #F0F0F0;
 }
+.logo {
+    max-width: 105px;
+    max-height: 105px;
+}
+.banner {
+
+}
