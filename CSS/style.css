@@ -39,7 +39,7 @@ h5 {
 }
 
 
-li {
+.red, .orange, .blue, .green {
     color: white;
     border-radius: 50%;
     box-shadow: inset 0 0 0 3px white;
@@ -49,6 +49,7 @@ li {
     margin-top: .5em;
     padding-top: 2.5em;
 }
+
 .red {
     background-color: #e6563b;
 }
