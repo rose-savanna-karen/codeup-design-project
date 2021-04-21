@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
+
 body {
     font-family: "Anton", san serif;
     background-color: #F0F0F0;
@@ -12,6 +13,15 @@ body {
 .banner {
     position: absolute;
     z-index: -1;
+    left: 0;
+}
+.navbar {
+    font-family: "Abel", sans-serif;
+
+}
+.codeup-design {
+    font-family: "Abel", sans-serif;
+    padding: 0;
 }
 h1,h2 {
     font-family: "Anton", san serif;
@@ -42,24 +52,25 @@ h5 {
 .red, .orange, .blue, .green {
     color: white;
     border-radius: 50%;
-    box-shadow: inset 0 0 0 3px white;
+    box-shadow: inset 0 0 0 6px white;
     width: 105px;
     height: 105px;
     list-style: none;
+    margin-left: 5px;
     margin-top: .5em;
     padding-top: 2.5em;
 }
 
-.red {
+.red, .red-dots {
     background-color: #e6563b;
 }
-.orange {
+.orange, .orange-dots {
     background-color: #eb9d3a;
 }
-.green {
+.green, .green-dots {
     background-color: #7cb06c;
 }
-.blue {
+.blue, .blue-dots {
     background-color: #00aba9;
 }
 
@@ -81,7 +92,7 @@ h5 {
     font-size: 20px;
 }
 
-.dots {
+.red-dots, .orange-dots, .green-dots, .blue-dots {
     color: black;
     border-radius: 50%;
     border-style: none;
