@@ -15,7 +15,12 @@ body {
     z-index: -1;
     left: 0;
 }
-
+.work-small {
+    margin-right: 2em;
+}
+.blog-small {
+    margin-left: 2em;
+}
 .navbar {
     font-family: "Abel", sans-serif;
 
